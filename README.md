@@ -65,19 +65,19 @@
     1.  Implemente los métodos de la clase Picture. Se recomienda que implemente la clase picture por etapas, probando realizar los dibujos que se muestran en la siguiente preguntas.
     2.  Usando únicamente los métodos de los objetos de la clase Picture dibuje las siguientes figuras (invoque a draw):
 
-            *    (a) ![(a)](imagenes/ejercicio_02_a.png)
+           *    (a) ![(a)](Imagenes/ejercicio_02_a.png)
 
-            *    (b) ![(b)](imagenes/ejercicio_02_b.png)
+           *    (b) ![(b)](Imagenes/ejercicio_02_b.png)
 
-            *    (c) ![(c)](imagenes/ejercicio_02_c.png)
+           *    (c) ![(c)](Imagenes/ejercicio_02_c.png)
 
-            *    (d) ![(d)](imagenes/ejercicio_02_d.png)
+           *    (d) ![(d)](Imagenes/ejercicio_02_d.png)
 
-            *    (e) ![(e)](imagenes/ejercicio_02_e.png)
+           *    (e) ![(e)](Imagenes/ejercicio_02_e.png)
 
-            *    (f) ![(f)](imagenes/ejercicio_02_f.png)
+           *    (f) ![(f)](Imagenes/ejercicio_02_f.png)
 
-            *    (g) ![(g)](imagenes/ejercicio_02_g.png)
+           *    (g) ![(g)](Imagenes/ejercicio_02_g.png)
 
 #
     

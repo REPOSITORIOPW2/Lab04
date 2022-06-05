@@ -13,11 +13,17 @@ class Picture:
 
   def verticalMirror(self):
     """ Devuelve el espejo vertical de la imagen """
-    return Picture(None)
+    vertical = []
+    n = len(self.img) - 1
+    for x in self.img:
+      vertical.append(self.img[n])
+      n = n - 1
+    return Picture(vertical)
 
   def horizontalMirror(self):
     """ Devuelve el espejo horizontal de la imagen """
-    return Picture(None)
+    horizontal = []
+    return Picture(horizontal)
 
   def negative(self):
     """ Devuelve un negativo de la imagen """
@@ -26,7 +32,10 @@ class Picture:
   def join(self, p):
     """ Devuelve una nueva figura poniendo la figura del argumento 
         al lado derecho de la figura actual """
-    return Picture(None)
+    arreglo = []
+    for i in range(len(self.img)):
+      arreglo.append(self.img[i] + p.img[i])
+    return Picture(arreglo)
 
   def up(self, p):
     return Picture(None)

@@ -76,6 +76,15 @@
                         draw(figura)
 
            *    (b) ![(b)](Imagenes/ejercicio_02_b.png)
+                        
+                           from interpreter import draw
+                           from chessPictures import *
+
+                           negro = knight._invColor
+                           vicevernegro=negro.verticalMirror
+                           blanco=knight.join(knigth._invColor)
+                           figura=blanco.under(negro.join(knigth.verticalMirror))
+                           draw(figura)
 
            *    (c) ![(c)](Imagenes/ejercicio_02_c.png)
                usando la función join de Picture.py y Ejercicio02c.py

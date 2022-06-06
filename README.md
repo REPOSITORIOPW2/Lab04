@@ -70,8 +70,8 @@
                         from interpreter import draw
                         from chessPictures import *
    
-                        negro = knight._invColor
-                        blanco=knight.join(knigth._invColor)
+                        negro = knight._invColor(.)
+                        blanco=knight.join(knigth._invColor(.))
                         figura=blanco.under(negro.join(knigth))
                         draw(figura)
 
@@ -80,9 +80,9 @@
                            from interpreter import draw
                            from chessPictures import *
 
-                           negro = knight._invColor
+                           negro = knight._invColor(.)
                            vicevernegro=negro.verticalMirror
-                           blanco=knight.join(knigth._invColor)
+                           blanco=knight.join(knigth._invColor(.))
                            figura=blanco.under(negro.join(knigth.verticalMirror))
                            draw(figura)
 

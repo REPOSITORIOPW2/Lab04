@@ -81,8 +81,9 @@
                 arreglo = []
                 for i in range(len(self.img)):
                     arreglo.append(self.img[i] + p.img[i])
-                return Picture(arreglo)
-                 ```
+                return Picture(arreglo)                                                                                       
+              
+         ```
 
            *    (e) ![(e)](Imagenes/ejercicio_02_e.png)
 

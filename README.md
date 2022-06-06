@@ -86,13 +86,17 @@
 -   ¿Qué son los archivos *.pyc?
     Son archivos compilados y entendidos por el lengua de python.
 -   ¿Para qué sirve el directorio __pycache__?
+
+    __pycache__ es un directorio que contiene archivos de caché de bytecode que son generados automáticamente por python, con extensión .pyc archivos. Esta carpeta con los archivos .pyc son generadas en primera instancia por el interprete. Asi, su función es que los programas se ejecutan más rápido.
+    
 -   ¿Cuáles son los usos y lo que representa el subguión en Python?
 
 #
 
 ## III.	CONCLUSIONES
 
-- En conclusión,
+- En conclusión, python es uno de los lenguajes de programación más usados en desarrollo de juegos, sistemas, software en general. 
+- Por otro lado, tiene un aprendizaje rápido, sin embargo tiene sus rectricciones y/o políticas. Como por ejemplo, la identación. 
 
 ## REFERENCIAS Y BIBLIOGRÁFIA RECOMENDADAS
 -   https://www.w3schools.com/python/python_reference.asp

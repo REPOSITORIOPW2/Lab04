@@ -85,6 +85,9 @@
 
 -   ¿Qué son los archivos *.pyc?
 -   ¿Para qué sirve el directorio __pycache__?
+
+    __pycache__ es un directorio que contiene archivos de caché de bytecode que son generados automáticamente por python, con extensión .pyc archivos. Esta carpeta con los archivos .pyc son generadas en primera instancia por el interprete. Asi, su función es que los programas se ejecutan más rápido.
+    
 -   ¿Cuáles son los usos y lo que representa el subguión en Python?
 
 #

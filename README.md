@@ -73,7 +73,7 @@
 
            *    (d) ![(d)](Imagenes/ejercicio_02_d.png)
 
-               usando la función join de Picture.py
+           usando la función join de Picture.py
                ```sh
                     def join(self, p):
                     """ Devuelve una nueva figura poniendo la figura del argumento 
@@ -83,7 +83,10 @@
                         arreglo.append(self.img[i] + p.img[i])
                     return Picture(arreglo)                                                                                       
                 ```
-
+                
+          luego, ejecutar python ejercicio02d.py
+            ![(e)](Imagenes/pygame window 05_06_2022 23_16_19.png)
+          
            *    (e) ![(e)](Imagenes/ejercicio_02_e.png)
 
            *    (f) ![(f)](Imagenes/ejercicio_02_f.png)

@@ -1,8 +1,8 @@
 from interpreter import draw
 from chessPictures import *
 
-unido = knight.join(knight)
-unido = unido.join(knight)
+unido = king.join(king)
+unido = unido.join(king)
 
 
 draw(unido)

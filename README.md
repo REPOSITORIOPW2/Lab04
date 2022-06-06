@@ -92,12 +92,18 @@
     __pycache__ es un directorio que contiene archivos de caché de bytecode que son generados automáticamente por python, con extensión .pyc archivos. Esta carpeta con los archivos .pyc son generadas en primera instancia por el interprete. Asi, su función es que los programas se ejecutan más rápido.
     
 -   ¿Cuáles son los usos y lo que representa el subguión en Python?
+
     En python los el subguión es muy utilizado los usos son los siguientes:
-        - Utilizarlo en Internacionalización (i18n) o Localización (l10n).
-        - Almacenar el valor de la última expresión en intérprete.
-        - Separar los dígitos de un número.
-        - Ignorar valores específicos.
-        - Dar significados especiales (y funciones) al nombre de variables o funciones.
+    
+       - Utilizarlo en Internacionalización (i18n) o Localización (l10n).
+
+       - Almacenar el valor de la última expresión en intérprete.
+
+       - Separar los dígitos de un número.
+
+       - Ignorar valores específicos.
+
+       - Dar significados especiales (y funciones) al nombre de variables o funciones.
 
 #
 

@@ -70,11 +70,51 @@
            *    (b) ![(b)](Imagenes/ejercicio_02_b.png)
 
            *    (c) ![(c)](Imagenes/ejercicio_02_c.png)
+               usando la función join de Picture.py y Ejercicio02c.py
+               
+                ```sh
+                    from interpreter import draw
+                    from chessPictures import *
 
+                    unido = knight.join(king)
+                    unido = unido.join(knight)
+    
+                    draw(unido)                                                                                     
+                ```
+                
+          luego, ejecutar python ejercicio02d.py
            *    (d) ![(d)](Imagenes/ejercicio_02_d.png)
 
+           usando la función join de Picture.py
+              
+              ```sh
+                    def join(self, p):
+                    """ Devuelve una nueva figura poniendo la figura del argumento 
+                    al lado derecho de la figura actual """
+                    arreglo = []
+                    for i in range(len(self.img)):
+                        arreglo.append(self.img[i] + p.img[i])
+                    return Picture(arreglo)                                                                                       
+                ```
+                
+          luego, ejecutar python ejercicio02d.py
+            https://github.com/REPOSITORIOPW2/Lab04/blob/ec8c604197dd73643d83ade57096e354f7ca0a5e/Imagenes/pygame%20window%2005_06_2022%2023_16_19.png
+          
            *    (e) ![(e)](Imagenes/ejercicio_02_e.png)
 
+            usando la función join de Picture.py
+              
+              ```sh
+                    def join(self, p):
+                    """ Devuelve una nueva figura poniendo la figura del argumento 
+                    al lado derecho de la figura actual """
+                    arreglo = []
+                    for i in range(len(self.img)):
+                        arreglo.append(self.img[i] + p.img[i])
+                    return Picture(arreglo)                                                                                       
+                ```
+        luego, ejecutar python ejercicio02d.py
+        
            *    (f) ![(f)](Imagenes/ejercicio_02_f.png)
 
            *    (g) ![(g)](Imagenes/ejercicio_02_g.png)

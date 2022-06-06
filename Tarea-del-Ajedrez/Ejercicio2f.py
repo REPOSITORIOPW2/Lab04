@@ -1,2 +1,12 @@
 from interpreter import draw
 from chessPictures import *
+
+unido = square.join(black_square)
+
+for i in range(1,7):
+    if i % 2 == 0:
+        unido = unido.join(black_square)
+    else:
+        unido = unido.join(square)
+
+draw(unido)

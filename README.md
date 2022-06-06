@@ -70,7 +70,19 @@
            *    (b) ![(b)](Imagenes/ejercicio_02_b.png)
 
            *    (c) ![(c)](Imagenes/ejercicio_02_c.png)
+               usando la función join de Picture.py y Ejercicio02c.py
+               
+                ```sh
+                    from interpreter import draw
+                    from chessPictures import *
 
+                    unido = knight.join(king)
+                    unido = unido.join(knight)
+    
+                    draw(unido)                                                                                     
+                ```
+                
+          luego, ejecutar python ejercicio02d.py
            *    (d) ![(d)](Imagenes/ejercicio_02_d.png)
 
            usando la función join de Picture.py

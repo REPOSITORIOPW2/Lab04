@@ -94,7 +94,8 @@
 
 ## III.	CONCLUSIONES
 
-- En conclusión,
+- En conclusión, python es uno de los lenguajes de programación más usados en desarrollo de juegos, sistemas, software en general. 
+- Por otro lado, tiene un aprendizaje rápido, sin embargo tiene sus rectricciones y/o políticas. Como por ejemplo, la identación. 
 
 ## REFERENCIAS Y BIBLIOGRÁFIA RECOMENDADAS
 -   https://www.w3schools.com/python/python_reference.asp

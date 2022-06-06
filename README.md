@@ -67,6 +67,14 @@
 
            *    (a) ![(a)](Imagenes/ejercicio_02_a.png)
 
+                        from interpreter import draw
+                        from chessPictures import *
+   
+                        negro = knight._invColor
+                        blanco=knight.join(knigth._invColor)
+                        figura=blanco.under(negro.join(knigth))
+                        draw(figura)
+
            *    (b) ![(b)](Imagenes/ejercicio_02_b.png)
 
            *    (c) ![(c)](Imagenes/ejercicio_02_c.png)

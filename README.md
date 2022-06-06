@@ -73,6 +73,18 @@
 
            *    (d) ![(d)](Imagenes/ejercicio_02_d.png)
 
+                * usando la función join de Picture.py
+               ```
+               def join(self, p):
+                """ Devuelve una nueva figura poniendo la figura del argumento 
+                al lado derecho de la figura actual """
+                arreglo = []
+                for i in range(len(self.img)):
+                    arreglo.append(self.img[i] + p.img[i])
+                return Picture(arreglo)
+           ```
+                
+
            *    (e) ![(e)](Imagenes/ejercicio_02_e.png)
 
            *    (f) ![(f)](Imagenes/ejercicio_02_f.png)

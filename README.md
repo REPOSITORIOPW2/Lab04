@@ -84,7 +84,9 @@
 ## II.	SOLUCIÓN DE CUESTIONARIO
 
 -   ¿Qué son los archivos *.pyc?
+
     Son archivos compilados y entendidos por el lengua de python.
+    
 -   ¿Para qué sirve el directorio __pycache__?
 -   ¿Cuáles son los usos y lo que representa el subguión en Python?
 
